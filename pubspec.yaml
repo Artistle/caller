@@ -1,0 +1,142 @@
+name: flutter_app
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  minimize_app: ^0.1.1
+
+
+  # voice recoreder
+  audioplayers: any
+  flutter_audio_recorder: ^0.5.5
+
+
+
+
+
+  #everything for work with image
+  image_cropper: ^1.3.1
+  image_picker:
+
+
+  #reversed strings
+  basic_utils:
+  more: ^3.0.1
+
+  #flushbar
+  flushbar: ^1.10.4
+
+  #for permission reboot
+  flutter_phoenix: ^0.1.0
+
+  #for date
+  jiffy:
+
+  #animations
+  flutter_animation_progress_bar: ^1.0.6
+  flutter_swiper: ^1.1.6
+  #bouncing_widget: ^1.2.0
+  flutter_switch: ^0.2.0
+  worm_indicator: ^0.2.4
+  simple_animations: ^1.3.3
+  curved_navigation_bar: ^0.3.7
+
+
+
+  #everything for call direct and call logs
+  call_log:
+  contacts_service: ^0.4.6
+  permission_handler: ^6.1.1
+
+  #Firebase services
+
+  firebase_storage:
+  #firebase_core: ^1.0.1
+  cloud_firestore:
+  firebase_core:
+  firebase_auth:
+
+  #speech to text
+
+
+
+  #flutter svg
+  flutter_svg:
+
+
+  path_provider:
+  provider:
+  material_design_icons_flutter: ^4.0.5855
+  intl: ^0.17.0
+  in_app_purchase: ^0.3.4+9
+
+  mask_text_input_formatter: ^1.2.1
+
+  sms_autofill: ^1.2.1
+
+  pin_code_fields: ^6.1.0
+  like_button: ^1.0.4
+  flutter_speed_dial: ^1.2.5
+  flutter_speed_dial_material_design: ^2.0.0
+
+  shared_preferences:
+
+
+
+  #speech to text module
+  speech_to_text:
+  avatar_glow: ^2.0.1
+  url_launcher:
+  #substring_highlight: ^0.1.2
+
+  #splash
+  flutter_native_splash: ^0.2.8
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  android_gravity: center
+
+  #app icon package
+  flutter_launcher_icons: "^0.8.0"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+
+
+#assets
+flutter:
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/call_logs_images/
+    - lib/lang/en.json
+    - lib/lang/he.json
+
+  uses-material-design: true
